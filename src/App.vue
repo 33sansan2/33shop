@@ -1,12 +1,19 @@
 <template>
   <div>
-      <h1>hellow</h1>
+      <Footer></Footer>
+      <Header></Header>
   </div>
 </template>
 
 <script>
+import Footer from "@/components/Footer"
+import Header from "@/components/Header"
 export default {
-    name:"App"
+    name:"App",
+    components:{
+      Footer,
+      Header
+    }
 }
 </script>
 
